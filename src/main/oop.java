@@ -4,9 +4,9 @@ package main;
 
 public class oop {
     public class allatok {
-        int kecskear; 
-        int juhar;
-        int sertesar;
+        double kecskear; 
+        double juhar;
+        double sertesar;
         
         
         public allatok(int kecskear, int juhar, int sertesar) {
@@ -19,14 +19,14 @@ public class oop {
 
     
     
-    public int getKecskedb() {
+    public double getKecskedb() {
         return kecskear;
     }
-    public int getJuhar(){
+    public double getJuhar(){
         return juhar;
     }
 
-    public int getSertesar(){
+    public double getSertesar(){
         return sertesar;
     }
     public void setKecskear(int kecskear) { 
